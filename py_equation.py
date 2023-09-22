@@ -9,16 +9,16 @@ def linear_equation(x):
 
 # Quadratic Equation: y = ax^2 + bx + c
 def quadratic_equation(x):
-    a = 1  # Coefficient of x^2
-    b = 8  # Coefficient of x
-    c = 15  # Constant term
+    a = -1  # Coefficient of x^2
+    b = -8  # Coefficient of x
+    c = -15  # Constant term
     return a * x**2 + b * x + c
 
 # Quadratic Equation: y = ax^2 + bx + c
 def quadratic_equation_inv(x):
-    a = 1  # Coefficient of x^2
-    b = 8  # Coefficient of x
-    c = -15  # Constant term
+    a = +1  # Coefficient of x^2
+    b = +8  # Coefficient of x
+    c = +15  # Constant term
     return a * x**2 + b * x + c
 
 # Generate x values
